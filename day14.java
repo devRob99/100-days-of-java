@@ -7,6 +7,7 @@ public class day14
     {
         Scanner scan = new Scanner(System.in);
         int num = scan.nextInt();
+        num = Math.abs(num); // Return absolute value of num if negative
         int sum = 0;
 
         while (num > 0)
